@@ -70,7 +70,7 @@
   git branch -d feature/xxx      # 删除已合并分支
   ```
 - [x] 遵守规范：从 `main` 创建 `feature/xxx` 特性分支开发，禁止直接改主干
-- [ ] 学习版本回退：`git reset`（强制回退，仅限未推送分支）与 `git revert`（反向提交，适合多人协作）
+- [x] 学习版本回退：`git reset`（强制回退，仅限未推送分支）与 `git revert`（反向提交，适合多人协作）
 - [x] 练习：创建 `feature/update-readme` 分支，修改 README 后合并回 `main`
 
 ### 4. Fork 与 Pull Request（了解即可）
