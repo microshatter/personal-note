@@ -61,17 +61,17 @@
 
 ### 3. 分支管理与版本控制
 
-- [ ] 理解分支作用：隔离开发，避免直接影响 `main` 主干
-- [ ] 练习分支命令
+- [x] 理解分支作用：隔离开发，避免直接影响 `main` 主干
+- [x] 练习分支命令
   ```bash
   git branch                     # 查看分支
   git checkout -b feature/xxx    # 创建并切换
   git merge feature/xxx          # 合并回 main
   git branch -d feature/xxx      # 删除已合并分支
   ```
-- [ ] 遵守规范：从 `main` 创建 `feature/xxx` 特性分支开发，禁止直接改主干
+- [x] 遵守规范：从 `main` 创建 `feature/xxx` 特性分支开发，禁止直接改主干
 - [ ] 学习版本回退：`git reset`（强制回退，仅限未推送分支）与 `git revert`（反向提交，适合多人协作）
-- [ ] 练习：创建 `feature/update-readme` 分支，修改 README 后合并回 `main`
+- [x] 练习：创建 `feature/update-readme` 分支，修改 README 后合并回 `main`
 
 ### 4. Fork 与 Pull Request（了解即可）
 
