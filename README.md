@@ -47,15 +47,15 @@
 
 ### 2. 仓库创建、克隆、提交、推送闭环
 
-- [ ] 网页端创建仓库，勾选 *Add a README file* 初始化，理解 Public / Private 区别
-- [ ] 跑通核心命令链
+- [x] 网页端创建仓库，勾选 *Add a README file* 初始化，理解 Public / Private 区别
+- [x] 跑通核心命令链
   ```bash
   git clone https://github.com/microshatter/personal-note.git
   git add .                                  # 暂存变更
   git commit -m "docs: 添加学习清单"          # 本地提交
   git push                                   # 推送至远程
   ```
-- [ ] 配置 `.gitignore`，排除日志、缓存、环境变量等文件
+- [x] 配置 `.gitignore`，排除日志、缓存、环境变量等文件
 - [ ] 用 `git status` 查看工作区状态，用 `git log` 查看提交历史
 - [x] **创建个人笔记仓库 `personal-note`，用 Markdown 写一份学习清单并提交** ← 本文件即交付物
 
@@ -75,10 +75,10 @@
 
 ### 4. Fork 与 Pull Request（了解即可）
 
-- [ ] 理解 Fork：复刻他人开源项目到个人仓库，作为自己的副本
+- [x] 理解 Fork：复刻他人开源项目到个人仓库，作为自己的副本
 - [ ] 了解 PR 流程：推送分支 → New Pull Request → 选择源/目标分支 → 填写描述 → 指定 Reviewers → 等待合并
 - [ ] 了解代码审查：查看 Diff、添加评论、根据反馈继续修改分支
-- [ ] 了解同步上游
+- [x] 了解同步上游
   ```bash
   git remote add upstream 原仓库URL
   git fetch upstream
