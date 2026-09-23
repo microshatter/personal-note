@@ -97,8 +97,8 @@
 
 - [x] 学习 GitHub Actions：在 `.github/workflows/` 下编写 YAML，实现 CI/CD
 - [x] 学习 GitHub Pages：在仓库 Settings 中配置，免费托管页面
-- [ ] 了解 Dependabot：自动检测依赖漏洞并生成更新 PR
-- [ ] 了解 GitHub Copilot：AI 编程助手
+- [x] 了解 Dependabot：自动检测依赖漏洞并生成更新 PR
+- [x] 了解 GitHub Copilot：AI 编程助手
 - [x] 交付物：为 `Earthquake-EEW-Godot` 配置 Godot 导出/发布工作流；个人页面仓库 `microshatter.github.io`
 
 ### 7. 录音卡相关开源项目研读
